@@ -1,7 +1,22 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { ref } from 'vue'
+
+const loginText = ref("Log in:")
+
+</script>
 
 <template>
-  <h1>You did it!</h1> 
+  <div>
+    <p>{{ loginText }}</p>
+    <input type="text" placeholder="Username" />
+    <input type="password" placeholder="Password" />
+  </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+input {
+  display: block;
+  margin: 5px 0;
+  padding: 5px;
+}
+</style>
