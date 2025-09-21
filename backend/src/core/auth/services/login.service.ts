@@ -6,6 +6,6 @@ export class LoginService{
     constructor(){}
 
     halloWorld(){
-        return "Hallo World"
+        return "Hallo World...."
     }
 }
