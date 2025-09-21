@@ -10,6 +10,7 @@ const loginText = ref("Log in:")
     <p>{{ loginText }}</p>
     <input type="text" placeholder="Username" />
     <input type="password" placeholder="Password" />
+    <button value="Submit">Submit</button>
   </div>
 </template>
 
