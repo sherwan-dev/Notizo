@@ -1,11 +1,7 @@
-<script setup lang="ts"></script> 
+<script setup lang="ts"></script>
 
 <template>
-  <div id="app">
-    <p>{{loginText}}</p>
-    <input type="text"/>
-    <input type="passowrd"/>
-  </div>
-</template> 
+  <h1>You did it!</h1> 
+</template>
 
 <style scoped></style>
