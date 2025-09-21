@@ -6,7 +6,6 @@ import { LoginDto } from "../dto/loginDto.dto";
 export class LoginController {
   constructor(private readonly loginService: LoginService) { }
  
-
   @Post()
   loginData(@Body() data: LoginDto): void {
     console.log("Data from vue: ",data);
